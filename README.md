@@ -2,13 +2,20 @@
 Added by Marvin
 
 * metrics: 计算相关度的具体方法(包括计算准确率、相似度之类的方法)
+
   ** base.py: 评价推荐系统的效果
+  
   ** classes.py 有关评价方法的主要实现
+  
   ** cross_validation.py 交叉测试的主要实现
+  
   ** metrics.py 各种评价方法
+  
   ** sampling.py 划分样本为训练集和测试集
+  
   ** pairwise.py 计算一些成对的信息（如计算欧氏距离，皮尔斯相关系数等）
 
+  
 * similarities: 计算相似度的一些方法(具体度量user/item距离的方法是由外部传入的，外部指的是metrics)
 
 * models: Model层
